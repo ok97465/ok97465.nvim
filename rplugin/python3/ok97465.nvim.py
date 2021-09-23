@@ -158,3 +158,5 @@ class Ok97465Plugin(object):
             # Todo: select candidates
             txt_import = import_list[undefine][0]
             buf[no_line + 1 : no_line + 1] = [txt_import]
+
+        self.nvim.command("Isort")
