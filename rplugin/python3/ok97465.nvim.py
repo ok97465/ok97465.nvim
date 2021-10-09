@@ -143,6 +143,7 @@ class Ok97465Plugin(object):
         undefine_list = self.get_undefine_list()
 
         if not undefine_list:
+            self.nvim.command("Isort")
             return
 
         buf = self.nvim.current.buffer
