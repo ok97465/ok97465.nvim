@@ -66,6 +66,7 @@
       "prange"
     ],
     "numpy": [
+      "ndarray",
       "divmod",
       "pi",
       "newaxis",
@@ -195,7 +196,6 @@
     "unravel_index"
   ],
     "numpy.core.numeric": [
-      "ndarray",
       "count_nonzero",
       "argwhere",
       "correlate",
