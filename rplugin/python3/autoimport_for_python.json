@@ -195,7 +195,7 @@
             "unravel_index"
         ],
         "numpy.core.numeric": [
-            "zero_like",
+            "zeros_like",
             "empty_like",
             "count_nonzero",
             "argwhere",
