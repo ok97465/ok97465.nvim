@@ -145,6 +145,9 @@
             "logical_or",
             "logical_xor"
         ],
+        "numpy.typing":[
+            "NDArray"
+        ],
         "numpy.polynomial.polynomial": [
             "polyfit",
             "polyval"
