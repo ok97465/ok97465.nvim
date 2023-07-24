@@ -67,9 +67,9 @@ class Ok97465Plugin(object):
         input = "\n".join(self.nvim.current.buffer)
 
         tree = ast.parse(dedent(input))
-        file_tokens = checker.make_tokens(dedent(input))
+        # file_tokens = checker.make_tokens(dedent(input))
 
-        w = checker.Checker(tree, file_tokens=file_tokens)
+        w = checker.Checker(tree)
         undefine_list = [
             o.message_args[0] for o in w.messages if isinstance(o, UndefinedName)
         ]
